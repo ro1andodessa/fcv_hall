@@ -1,11 +1,11 @@
 @font-face {
     font-family: Marvin;
-    src: url('../fonts/Marvin.ttf') format('truetype');
+    src: url('fonts/Marvin.ttf') format('truetype');
 }
 
 @font-face {
     font-family: EdgeDisplay;
-    src: url('../fonts/EdgeDisplay_Regular.otf') format('opentype');
+    src: url('/fonts/EdgeDisplay_Regular.otf') format('opentype');
 }
 
 body {
@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-    color: #1214af;
+    color: #e1391c;
     font-family: EdgeDisplay;
     font-size: 25px;
 }
@@ -37,7 +37,7 @@ div {
 
 ul {
     color: #ffffff;
-    font-size: 50;
+    font-size: 35;
     display: inline-block; text-align: left;
     font-weight: bold;
 }
