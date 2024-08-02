@@ -1,11 +1,11 @@
 @font-face {
     font-family: Marvin;
-    src: url('fonts/Marvin.ttf') format('truetype');
+    src: url('../fonts/Marvin.ttf') format('truetype');
 }
 
 @font-face {
     font-family: EdgeDisplay;
-    src: url('/fonts/EdgeDisplay_Regular.otf') format('opentype');
+    src: url('../fonts/EdgeDisplay_Regular.otf') format('opentype');
 }
 
 body {
