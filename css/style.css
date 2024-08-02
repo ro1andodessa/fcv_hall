@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    text-align: center;
+}
+
+h1 {
+    color: #f9c117;
+    font-family: Marvin;
+    font-size: 30px;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: Marvin;
+    font-size: 25px;
+}
+
+h3 {
+    color: #1214af;
+    font-family: Edge Display;
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    color: #ffffff;
+    font-family: Tahoma;
+    display: inline-block; text-align: left;
+    font-weight: bold;
+}
