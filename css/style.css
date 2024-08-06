@@ -8,6 +8,26 @@
     src: url('../fonts/EdgeDisplay_Regular.otf') format('opentype');
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.name-list li {
+    flex: 1 0 33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
 body {
     background-color: #000000;
     text-align: center;
@@ -22,22 +42,33 @@ h1 {
 h2 {
     color: #ffffff;
     font-family: Marvin;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 h3 {
+    color: #ffffff;
+    font-family: Marvin;
+    font-size: 25px;
+}
+
+h4 {
     color: #e1391c;
     font-family: EdgeDisplay;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 div {
-    text-align: center;
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 30px;
+    display: inline-block; text-align: center;
+    font-weight: bold;
 }
 
 ul {
     color: #ffffff;
-    font-size: 22px;
-    display: inline-block; text-align: left;
+    font-family: Tahoma;
+    font-size: 20px;
+    display: inline-block; text-align: center;
     font-weight: bold;
 }
