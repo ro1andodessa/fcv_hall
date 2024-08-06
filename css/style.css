@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .name-list {
@@ -28,7 +29,10 @@
     width: calc(33.33% - 10px); /* Фиксированная ширина с учетом gap */
     padding: 10px;
     box-sizing: border-box;
+    background: #f4f4f4;
+    border: 1px solid #ccc;
     margin-bottom: 10px;
+    font-size: 1em;
 }
 
 @media (max-width: 800px) {
@@ -40,6 +44,15 @@
 @media (max-width: 600px) {
     .name-list li {
         width: 100%; /* Один столбец при самой малой ширине */
+        font-size: 0.9em; /* Уменьшение размера шрифта */
+        padding: 8px; /* Уменьшение отступов */
+    }
+}
+
+@media (max-width: 400px) {
+    .name-list li {
+        font-size: 0.8em; /* Еще большее уменьшение размера шрифта */
+        padding: 6px; /* Еще большее уменьшение отступов */
     }
 }
 
