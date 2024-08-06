@@ -29,8 +29,6 @@
     width: calc(33.33% - 10px); /* Фиксированная ширина с учетом gap */
     padding: 10px;
     box-sizing: border-box;
-    background: #f4f4f4;
-    border: 1px solid #ccc;
     margin-bottom: 10px;
     font-size: 1em;
 }
